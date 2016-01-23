@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;caminhoDoArquivo&apos; in &apos;br.com.tabajara.crm.ClienteRepository&apos; to &apos;CAMINHO_DO_ARQUIVO&apos;&#x0A;- Original project: &apos;tabajara&apos;&#x0A;- Original element: &apos;br.com.tabajara.crm.ClienteRepository.caminhoDoArquivo&apos;&#x0A;- Renamed element: &apos;br.com.tabajara.crm.ClienteRepository.CAMINHO_DO_ARQUIVO&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;caminhoDoArquivo&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;br.com.tabajara.crm{ClienteRepository.java[ClienteRepository^caminhoDoArquivo" name="CAMINHO_DO_ARQUIVO" references="true" setter="false" stamp="1446306920157" textual="false" version="1.0"/>
+</session>

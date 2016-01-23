@@ -1,0 +1,11 @@
+import java.text.SimpleDateFormat;
+
+
+public class TypeConverterDate implements TypeConverter {
+
+	public <T> T convert(Object obj) {
+		String str = (String) obj;
+		return new SimpleDateFormat("dd/MM/yyyy").parse(str);
+	}
+
+}

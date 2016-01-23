@@ -1,0 +1,7 @@
+public enum TypeConverterEnum {
+
+	STRING_TO_DATE((byte) 1, TypeConverterDate.class);
+	
+	
+	
+}

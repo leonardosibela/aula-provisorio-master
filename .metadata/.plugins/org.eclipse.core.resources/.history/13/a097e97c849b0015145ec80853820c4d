@@ -1,0 +1,5 @@
+public interface TypeConverter {
+	
+	public <T> T convert(Object obj);
+	
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/java08/Downloads/MediaStore"/>
+			<item value="/home/java08/Downloads/Media-Store"/>
+			<item value="/home/java08/workspace/tabajara"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.wst.jsdt.ui.java"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="200" key="DIALOG_X_ORIGIN"/>
+		<item value="148" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/ui/MenuBase.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/ui/MenuClientes.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/services/FilmeService.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/services/BaseService.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/services/ClienteService.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/entities/Album.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/entities/Venda.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/entities/ItemVenda.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/entities/Filme.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/services/VendaService.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/exemplos/TesteVendaLazy.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/ui/MenuVenda.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/ui/MenuFilme.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/ui/MenuLivro.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/services/LivroService.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/entities/Livro.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/entities/Cliente.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/resources/META-INF/persistence.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/exemplos/Pedido.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/ui/Aplicacao.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/ui/MenuAlbum.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/services/AlbumService.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/MediaStore/src/main/java/br/com/dextraining/mediaStore/entities/Produto.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/sitevendas/src/main/webapp/WEB-INF/web.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/sitevendas/src/main/java/Servlet.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="359" key="DIALOG_X_ORIGIN"/>
+			<item value="119" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

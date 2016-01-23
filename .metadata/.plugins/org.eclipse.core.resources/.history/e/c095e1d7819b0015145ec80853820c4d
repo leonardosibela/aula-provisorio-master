@@ -1,0 +1,18 @@
+import javax.servlet.http.HttpServletRequest;
+
+import com.sun.java.util.jar.pack.Package.Class.Field;
+
+public class Converter {
+
+	public <T> T convert(Class<T> klass, 
+						 HttpServletRequest request) 
+								 throws InstantiationException, 
+								 IllegalAccessException {
+		T t = klass.newInstance();
+		
+		Field[] fields = klass.getDeclaredFields();
+		
+		return null;
+	} 
+	
+}

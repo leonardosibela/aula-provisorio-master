@@ -1,0 +1,56 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/adiciona")
+public class AdicionaProduto extends HttpServlet {
+	
+	private static final long serialVersionUID = 1L;
+       
+    public AdicionaProduto() {
+    }
+
+    protected void service(HttpServletRequest request,
+            			   HttpServletResponse response)
+            throws IOException, ServletException 
+    {
+        PrintWriter out = response.getWriter();
+                        
+        String nome = request.getParameter("nome");
+        String valor = request.getParameter("valor");
+        String codigo = request.getParameter("codigo");
+        String dataEmTexto = request.getParameter("data");
+        
+        Date date = null;; 
+        try {
+        	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+            date = sdf.parse(dataEmTexto); 
+            
+            String outraData = sdf.format(date);
+        } catch (ParseException e) {
+            out.println("Erro de conversão da data");
+            return;
+        }
+        
+        System.out.println("Nome " + nome);
+        System.out.println("Nome " + valor);
+        System.out.println("Nome " + codigo);
+        System.out.println("Nome " + date);
+        
+        out.println("<html>");
+        out.println("<body>");
+        out.println("Produto " + nome + " adicionado com sucesso");
+        out.println("Data " + date.toString() + " parseado com sucesso"); 
+        out.println("</body>");
+        out.println("</html>");
+    }
+
+}

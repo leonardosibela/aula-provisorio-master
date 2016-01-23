@@ -1,0 +1,9 @@
+
+public enum TypeEnum {
+
+	DATA;
+	
+	private byte code;
+	private 
+	
+}

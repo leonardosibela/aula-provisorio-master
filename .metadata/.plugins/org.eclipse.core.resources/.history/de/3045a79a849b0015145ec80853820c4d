@@ -1,0 +1,13 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
+public class TypeConverterDate implements TypeConverter<Date> {
+
+	public Date convert(Object obj) throws ParseException {
+		String str = (String) obj;
+		return new SimpleDateFormat("dd/MM/yyyy").parse(str);
+	}
+
+}

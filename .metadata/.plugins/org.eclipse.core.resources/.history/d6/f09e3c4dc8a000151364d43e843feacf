@@ -1,0 +1,9 @@
+<html>
+<body>
+	<form action="filter">
+      Nome: <input type="text" name="nome" required="required" /><br />
+      Senha: <>
+      <button type="submit">Gravar</button>
+    </form>
+</body>
+</html>

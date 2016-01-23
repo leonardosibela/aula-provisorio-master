@@ -1,0 +1,6 @@
+
+public @interface Type {
+
+	String value() default ;
+	
+}

@@ -1,0 +1,70 @@
+package br.com.tabajara.crm;
+
+import br.com.tabajara.base.CPF;
+import br.com.tabajara.base.CPFInvalidoException;
+import br.com.tabajara.base.Pessoa;
+import br.com.tabajara.base.PessoaService;
+import br.com.tabajara.ui.GUI;
+
+public class ClienteService {
+
+	private GUI ui;
+	
+	public ClienteService(GUI gui) {
+		this.ui = gui;
+	}
+
+	// @Override
+	// public void cadastrar(Pessoa pessoa) {
+	// super.cadastrar(pessoa);
+	// // Cliente eh necessariamente pessoa
+	// // mas pessoa nao eh necessariamente cliente
+	// cadastrarCliente(pessoa);
+	// }
+
+	// public void cadastrarCliente(Cliente cliente) {
+	// super.cadastrar(cliente);
+	// // nao da pra acessar o atributo privado
+	// // da classe paAhi
+	// // this.console = null;
+	// }
+
+	@Override
+	protected void cadastrarDadosEspecificos(Cliente cliente) {
+		boolean cpfInvalido;
+		do {
+			try {
+				CPF cpf = new CPF(getUI().readString("Digite o CPF"));
+				cliente.setCpf(cpf);
+				cpfInvalido = false;
+
+			} catch (CPFInvalidoException | IllegalArgumentException e) {
+				getUI().write(e.getMessage() + ", amigao");
+				cpfInvalido = true;
+
+				// Ja era a checked exception
+				// throw new RuntimeException(e);
+			}
+			// catch (IllegalArgumentException e) {
+			// getUI().write(e.getMessage() + ", amigao");
+			// cpfInvalido = true;
+			// }
+		} while (cpfInvalido);
+		// cliente.setStatus(getUI().readInt("Digite o status"));
+	}
+
+	public void exibirStatus(Cliente cliente) {
+		if (cliente.isAtivo()) {
+			getUI().write(cliente.getNome() + " - Ativo");
+		} else {
+			getUI().write(cliente.getNome() + " - Inativo");
+		}
+	}
+
+	// @Override
+	// protected Console getConsole() {
+	// // #vidaloka2
+	// return null;
+	// }
+
+}

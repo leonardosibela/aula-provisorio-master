@@ -1,0 +1,6 @@
+
+public @interface Type {
+
+	TypeEnum value() default TypeEnum.STRING;
+	
+}

@@ -1,0 +1,12 @@
+import javax.servlet.http.HttpServletRequest;
+
+public class Converter {
+
+	public <T> T convert(Class<T> klass, 
+						 HttpServletRequest request) {
+
+		
+		return null;
+	} 
+	
+}

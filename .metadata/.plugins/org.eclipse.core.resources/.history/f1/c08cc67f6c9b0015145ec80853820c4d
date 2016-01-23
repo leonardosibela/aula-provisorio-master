@@ -1,0 +1,13 @@
+<html>
+<body>
+	
+	<form action="adiciona">
+      Nome: <input type="text" name="nome" /><br />
+      Valor: <input type="text" name="valor" /><br />
+      C&oacute;digo: <input type="text" name="codigo" /><br />
+      Data: <input type="text" name="data" /><br />
+      
+      <input type="submit" value="Gravar" />
+    </form>
+</body>
+</html>

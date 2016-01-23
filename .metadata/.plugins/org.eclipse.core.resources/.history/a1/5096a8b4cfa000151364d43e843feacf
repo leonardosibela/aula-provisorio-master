@@ -1,0 +1,15 @@
+
+public class PropertySingleton {
+	
+	private static PropertySingleton prop;
+
+	private PropertySingleton() {
+	}
+	
+	public statis PropertySingleton singleton() {
+		return prop == null 
+				? prop = new PropertySingleton()
+				: prop;
+	}
+	
+}

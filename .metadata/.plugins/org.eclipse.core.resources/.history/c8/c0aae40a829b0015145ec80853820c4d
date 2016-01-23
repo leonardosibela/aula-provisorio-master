@@ -1,0 +1,24 @@
+import java.lang.reflect.Field;
+
+import javax.servlet.http.HttpServletRequest;
+
+
+public class Converter {
+
+	public <T> T convert(Class<T> klass, 
+						 HttpServletRequest request) 
+								 throws InstantiationException, 
+								 IllegalAccessException {
+		T t = klass.newInstance();
+		
+		Field[] fields = klass.getDeclaredFields();
+		for(Field f : fields) {
+			String name = f.getName();
+			String value = request.getParameter(name);
+			
+		} 
+		
+		return null;
+	} 
+	
+}

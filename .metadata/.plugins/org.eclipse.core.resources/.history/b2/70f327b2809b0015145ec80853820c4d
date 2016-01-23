@@ -1,0 +1,7 @@
+public class Converter {
+
+	public <T> T convert(Class<T> klass) {
+		
+	} 
+	
+}

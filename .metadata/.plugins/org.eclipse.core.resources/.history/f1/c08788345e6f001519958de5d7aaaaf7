@@ -1,0 +1,8 @@
+package br.com.tabajara.crm;
+
+import br.com.tabajara.base.Pessoa;
+
+class Cliente extends Pessoa {
+
+	
+}

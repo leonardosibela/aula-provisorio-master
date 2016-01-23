@@ -1,0 +1,9 @@
+
+public class TypeConverterDate implements TypeConverter {
+
+	public <T> T convert(Object obj) {
+		String str = (String) obj;
+		return null;
+	}
+
+}

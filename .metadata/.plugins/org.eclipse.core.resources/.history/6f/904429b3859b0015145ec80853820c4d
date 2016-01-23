@@ -1,0 +1,31 @@
+public enum TypeConverterEnum {
+
+	STRING_TO_DATE((byte) 1, 
+				   TypeConverterDate.class,
+				   TypeEnum.DATA);
+	
+	private byte code;
+	private TypeConverter converter;
+	private TypeEnum type;
+	
+	private TypeConverterEnum(byte code, 
+							  Class<?> converter,
+							  TypeEnum type) {
+		
+	}
+	
+	public static TypeConverterEnum findByType(TypeEnum t) {
+		for(TypeConverterEnum e : values()) {
+			if(e.type.getCode() == t.getCode()) {
+				return e;
+			}
+		}
+		return null;
+	}
+	
+	
+	public TypeConverter getConverter() {
+		return converter;
+	}
+	
+}

@@ -1,0 +1,23 @@
+<html>
+<body>
+	<script>
+		
+		var validaCampos = function() {
+			var form = document.forms[0];
+			
+			console.log(form);
+			
+			form.submit();
+		}
+	
+	</script>
+	<form action="adiciona">
+      Nome: <input type="text" name="nome" /><br />
+      Valor: <input type="text" name="valor" /><br />
+      C&oacute;digo: <input type="text" name="codigo" /><br />
+      Data: <input type="text" name="data" /><br />
+      
+      <button onclick="validaCampos()">Gravar</button>
+    </form>
+</body>
+</html>

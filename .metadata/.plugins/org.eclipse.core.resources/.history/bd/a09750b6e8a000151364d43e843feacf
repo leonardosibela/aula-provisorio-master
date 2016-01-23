@@ -1,0 +1,43 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HelloWordServlet</servlet-name>
+  	<display-name>HelloWordServlet</display-name>
+  	<description></description>
+  	<servlet-class>HelloWordServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdicionaContatoServlet</servlet-name>
+  	<display-name>AdicionaContatoServlet</display-name>
+  	<description></description>
+  	<servlet-class>AdicionaContatoServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Servlet</servlet-name>
+  	<display-name>Servlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HelloWordServlet</servlet-name>
+  	<url-pattern>/HelloWordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdicionaContatoServlet</servlet-name>
+  	<url-pattern>/AdicionaContatoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Servlet</servlet-name>
+  	<url-pattern>/Servlet</url-pattern>
+  </servlet-mapping>
+  
+   	<error-page>
+ 		<error-code>404</error-code>
+ 		<location>/notFound.html</location>
+ 	</error-page>
+ 	  
+</web-app>

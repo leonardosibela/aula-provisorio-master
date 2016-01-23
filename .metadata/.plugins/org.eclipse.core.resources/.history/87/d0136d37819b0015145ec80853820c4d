@@ -1,0 +1,10 @@
+import java.util.Date;
+
+public enum TypeEnum {
+
+	DATA((byte) 1, Date.class);
+	
+	private byte code;
+	private Class<?> type; 
+	
+}

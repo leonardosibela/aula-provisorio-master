@@ -1,0 +1,18 @@
+import java.util.Properties;
+
+
+public class PropertySingleton {
+	
+	private static PropertySingleton singleton;
+	private Properties pro
+	
+	private PropertySingleton() {
+	}
+	
+	public static PropertySingleton singleton() {
+		return prop == null 
+				? prop = new PropertySingleton()
+				: prop;
+	}
+	
+}

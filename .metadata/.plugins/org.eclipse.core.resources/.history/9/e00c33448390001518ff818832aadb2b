@@ -1,0 +1,39 @@
+package br.com.dextraining.mediaStore.entities;
+
+import java.util.Set;
+
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
+
+@Entity
+@DiscriminatorValue(value = "FILME")
+public class Filme extends Produto {
+
+	private int duracao;
+	
+	@ManyToMany
+	private Set<Categoria> categorias;
+
+	public int getDuracao() {
+		return duracao;
+	}
+
+	public void setDuracao(int duracao) {
+		this.duracao = duracao;
+	}
+
+	public Set<Categoria> getCategorias() {
+		return categorias;
+	}
+
+	public void setCategorias(Set<Categoria> categorias) {
+		this.categorias = categorias;
+	}
+
+	@Override
+	public String toString() {
+		return "Filme [duracao=" + duracao + ", categorias=" + categorias + "]";
+	}
+	
+}
